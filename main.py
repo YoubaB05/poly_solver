@@ -1,9 +1,5 @@
 from math import sqrt
 
-list = [1, 1, 2, 3, 5, 8, 13]
-num = 5**10
-
-
 def solvePoly(a, b, c):
   delta = b**2 - 4*a*c
   if (delta > 0):
